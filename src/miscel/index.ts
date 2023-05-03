@@ -19,7 +19,7 @@ if(rems && rems.gte(gas)) {
   console.log("Sendable ",amt)
 }
 else{
-  console.log("Low balance", amt)
+  console.log("Low balance")
   return
 }
 
